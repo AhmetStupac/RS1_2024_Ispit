@@ -45,8 +45,8 @@ const routes: Routes = [
       {path: 'order', component: ReservationComponent},
       {path: 'chat', component: MyChatComponent},
       {path: 'rxjs-subject-message-example', component: RxjsSubjectMessageExampleComponent},
-      {path: 'student/semester/:id',component: StudentSemestersComponent},
-      {path: 'student/semester/new/:id',component: StudentSemestersNewComponent},
+      {path: 'student/semesters/:id',component: StudentSemestersComponent},
+      {path: 'student/semesters/new/:id',component: StudentSemestersNewComponent},
       {path: '**', component: AdminErrorPageComponent} // Default ruta
     ]
   },
